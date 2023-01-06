@@ -4,6 +4,32 @@
   margin-right: auto;
 }
 
+.titleHolder {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  gap: 15px;
+}
+
+.cardTag {
+  font-weight: lighter;
+  font-size: small;
+  color: #e1a432;
+}
+
+.cardTitle {
+  font-size: x-large;
+}
+
 .title {
   font-weight: bold;
+}
+
+.selectButton {
+  padding: 20px 50px;
+  display: flex;
+  color: white;
+  background-color: #0f766e;
+  justify-content: center;
+  align-items: center;
 }
