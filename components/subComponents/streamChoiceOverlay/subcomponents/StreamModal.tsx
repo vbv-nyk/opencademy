@@ -5,7 +5,12 @@ import styles from "./StreamModal.module.css";
 const StreamModal: React.FC = () => {
   return (
     <div className={styles.modalOverlay}>
-      <div className={styles.modalContainer}>
+      <div
+        className={styles.modalContainer}
+        onClick={(e) => {
+          e.stopPropagation();
+        }}
+      >
         <div className={styles.modalHeader}>Stream Choice</div>
         <div className={styles.modalBody}>
           <div className={styles.courseContainer}>
