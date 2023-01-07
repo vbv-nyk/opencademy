@@ -6,6 +6,7 @@ import PaperMashe from "../public/assets/papermashe.svg"
 import LearnIMG from "../public/assets/learn.png"
 import workoutIMG from "../public/assets/workout.png"
 import Image from "next/image"
+import Footer from "../components/Footer/Footer"
 
 const HomePage = () => {
 	return (
@@ -94,6 +95,7 @@ const HomePage = () => {
 					</div>
 				</div>
 			</div>
+			<Footer />
 		</div>
 	)
 }
