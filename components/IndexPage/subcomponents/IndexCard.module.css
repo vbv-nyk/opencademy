@@ -1,0 +1,29 @@
+.cardContainer {
+  flex-direction: column;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  width: max(100%, 400px);
+  max-width: 800px;
+}
+
+.card {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.524);
+}
+.subjectName {
+  font-size: large;
+  padding: 10px 0px;
+}
+.cardTitle {
+  font-size: large;
+}
+
+.listContainer {
+  width: 100%;
+  padding-left: 20px;
+  font-size: medium;
+  list-style-type: square;
+}
+
+.listItem {
+  padding: 5px;
+}
