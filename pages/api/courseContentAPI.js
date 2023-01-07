@@ -1,171 +1,173 @@
-import styles from "../../components/MainPage/MainPage.module.css";
+import styles from "../../components/MainPage/MainPage.module.css"
 //for each item in index page
 export const foundationContent = {
 	mainTitle: "Units and mesaurements",
 	subTitle: "How this Course Will Work",
 	sections: [
-		"Introduction",
-		"How It Works",
-		"A Note About Language",
-		"What Comes Next",
+		"World Of Physics",
+		"Physics and Mathematics",
+		"Uses of Dimension",
+		"Vectors and Scalars",
+		"Distance and Displacement",
 	],
 	content: [
-		<div key="0">
-			<h1 id={1}>Introduction</h1>
-			The Odin Project is an open-source community dedicated to providing the
-			best information sources to take you from zero to a full-stack developer.
-			More information can be found at The Odin Project’s about page. In this
-			unit, we’ll learn about how the web works and start thinking about the
-			basics of computer and web programming. Each of the following sections and
-			lessons represents essential baseline knowledge. Even if you have no
-			intention of becoming a web developer yourself, this material should help
-			you gain a useful understanding of the moving parts involved in creating
-			and serving content on the web. We will start by getting familiar with the
-			internet and your own computer. Next, we’ll work on setting up a
-			development environment and learning about Git and GitHub. Then, we’ll go
-			over the basics of front-end technologies like HTML, CSS, and Javascript
-			before stepping into the back end with a brief foray that covers the basic
-			concepts of back-end technologies. By the end of this unit, you should not
-			only understand how the web works but also be able to identify and
-			differentiate between all the technologies that you will use to build your
-			own web applications. You will be able to build a simple webpage, style
-			it, and add minor elements of interactivity while working comfortably from
-			the command line. This section intentionally covers a very broad range of
-			topics. It’s silly to go diving straight into server-side programming
-			without having a context for what it is and why it’s useful (and why you
-			should learn it!).
-			<h1>How It Works</h1>
-			This curriculum works by pulling together the best content from across the
-			internet for learning a particular topic. In each lesson, we’ll introduce
-			the topic and try to provide some useful context before pointing you to
-			external resources made by others. Most lessons will contain questions
-			that you should be able to answer before moving on. Some of the lessons
-			will ask you to complete exercises. In addition, we provide several
-			projects throughout the curriculum to help you grow your understanding by
-			actually building things. Try not to think of The Odin Project, or
-			programming, as a class in school. It’s not material you learn all at once
-			to take a test, and then pass or fail. You can think of it as a snowball.
-			You, yourself, are a snowball. You’re rolling down a hill full of snow;
-			the further you roll, the more snow will stick to you. Sure, snow will
-			also fall off you, and you’ll forget things often, but that’s just part of
-			the process. Don’t be scared if you get to a project and you feel like you
-			haven’t retained or memorized anything. That’s natural and happens to
-			everyone. The information will come back to you as you start solving your
-			problems one at a time, relying on Google and the Odin Community for help.
-			<h1 id={2}>A Note About Language</h1>
-			The Odin Project attracts people from all over the world who aspire to
-			learn how to become developers. Please be aware that this curriculum is
-			written in English and maintained by English speakers who are not able or
-			expected to translate it for you. As you develop into a programmer, you
-			will find that the world you are entering into is firmly rooted in the
-			English language. This means that the syntax of your programming language,
-			the documentation that teaches you how to use it, and the majority of the
-			people in the community are all expecting to communicate with you in
-			English. If you are a non-English speaker, or English is not a primary
-			language for you, this fact is not meant to discourage you, but to prepare
-			you. As another part of this preparation, we highly recommend spending
-			extra time on topics and terms that you do not understand right away. We
-			also encourage you to seek out additional resources that teach about these
-			topics in your own native language so you can understand them more fully.
-			In addition to this, you might also consider using a translation
-			dictionary in your own language alongside our curriculum so you can
-			readily reference it as you go. We do not have any recommendations on
-			these since there are such a wide variety of languages spoken throughout
-			the world, finding one may perhaps be a good first step in learning how to
-			find useful tools online by searching. This is a skill you will utilize
-			and improve as you progress in your learning to be a developer.
-			<h1 id={3}>What Comes Next</h1>
-			Once you’ve completed this course, you should feel comfortable with the
-			building blocks of web programming but itching to dig deeper. Though we
-			spend a fair bit of time digging into each of the major topics in this
-			course, it’s really just a taste of what comes next (and all the cool
-			stuff you can do with it). The last lesson of this course will give you an
-			opportunity to choose between a Full Stack JavaScript and Full Stack Rails
-			path, both of which are designed to take the foundation built in this
-			course and build it into an applied understanding of the material. Each
-			path will focus on taking these raw building blocks and honing them into a
-			highly functional skillset. The Odin Project is maintained by
-			professionals. We have chosen some of the best resources available and
-			curated a guide on how to go through them. If there are no good resources,
-			we write our own. With that said, know that everything in the curriculum
-			is intentionally included and vital for you to become a successful
-			programmer. As you move forward in the curriculum, each portion is built
-			on everything that came before it, so skipping things will create pockets
-			of non-understanding in your knowledge that start to affect your ability
-			to solve problems and understand the task at hand. Additional resources
-			are the only thing that is considered optional unless explicitly stated.
-			These are here in case you feel like you need or want to dive deeper into
-			a topic to get a better understanding. DO NOT SKIP ANYTHING! Additional
-			Resources This section contains helpful links to related content. It isn’t
-			required, so consider it supplemental. It looks like this lesson doesn’t
-			have any additional resources yet. Help us expand this section by
-			contributing to our curriculum.
+		<div
+			key="0"
+			style={{ fontSize: "20px", textAlign: "justify", marginBottom: "6rem" }}
+		>
+			<h1 style={{ marginTop: "4rem", marginBottom: "2rem" }} id={1}>
+				Physics and Mathematics
+			</h1>
+			<div style={{ fontSize: "20px" }}>
+				There is a strong correlation between physics and mathematics, as math
+				is an essential tool for understanding and describing the physical
+				world. In fact, many of the fundamental principles of physics can be
+				expressed mathematically, and much of the work in physics involves using
+				math to solve problems and make predictions. In grade 11 physics,
+				students will begin to see this correlation firsthand as they use math
+				to analyze and understand physical phenomena. For example, they may use
+				algebra and trigonometry to analyze the motion of objects under the
+				influence of various forces, or use calculus to understand how physical
+				quantities change over time. In addition to using math to analyze
+				physical systems, students will also learn about the mathematical models
+				that are used to describe physical phenomena. These models are based on
+				the laws of physics and allow scientists to make predictions about how
+				the world will behave in a given situation. Overall, the relationship
+				between physics and math is a close one, and a strong foundation in math
+				is essential for success in physics. By learning about the fundamental
+				principles of physics and how they are expressed mathematically,
+				students will be better equipped to understand and analyze the physical
+				world.
+			</div>
+			<h1 style={{ marginTop: "4rem", marginBottom: "2rem" }}>
+				Physics and Mathematics
+			</h1>
+			There is a strong correlation between physics and mathematics, as math is
+			an essential tool for understanding and describing the physical world. In
+			fact, many of the fundamental principles of physics can be expressed
+			mathematically, and much of the work in physics involves using math to
+			solve problems and make predictions. In grade 11 physics, students will
+			begin to see this correlation firsthand as they use math to analyze and
+			understand physical phenomena. For example, they may use algebra and
+			trigonometry to analyze the motion of objects under the influence of
+			various forces, or use calculus to understand how physical quantities
+			change over time. In addition to using math to analyze physical systems,
+			students will also learn about the mathematical models that are used to
+			describe physical phenomena. These models are based on the laws of physics
+			and allow scientists to make predictions about how the world will behave
+			in a given situation. Overall, the relationship between physics and math
+			is a close one, and a strong foundation in math is essential for success
+			in physics. By learning about the fundamental principles of physics and
+			how they are expressed mathematically, students will be better equipped to
+			understand and analyze the physical world.
+			<h1 style={{ marginTop: "4rem", marginBottom: "2rem" }} id={2}>
+				Uses of Dimension
+			</h1>
+			In physics, dimensions are a way of describing the size and scope of
+			physical phenomena. The most common dimensions are length, mass, and time,
+			which are used to describe the size, weight, and duration of objects and
+			events. In grade 11 physics, students will learn about the different
+			dimensions and how they are used to describe the physical world. They will
+			also learn about the International System of Units (SI), which is a
+			standardized system of units that is used to measure physical quantities.
+			In addition to measuring physical quantities, dimensions are also used to
+			describe the behavior of physical systems. For example, students may learn
+			about how the dimensions of an object can affect its motion or how the
+			dimensions of a space can influence the behavior of particles within it.
+			Overall, the study of dimensions is an important part of physics and is
+			essential for understanding the size, scale, and behavior of physical
+			phenomena. By learning about dimensions and how they are used to describe
+			the physical world, students will be better equipped to analyze and
+			understand the world around them.
+			<h1 style={{ marginTop: "4rem", marginBottom: "2rem" }} id={3}>
+				Vectors and Scalers
+			</h1>
+			In physics, vectors are quantities that have both magnitude and direction,
+			while scalars are quantities that have only magnitude. Vectors are often
+			represented by arrows, with the length of the arrow representing the
+			magnitude and the direction the arrow is pointing representing the
+			direction. Scalars, on the other hand, are just simple numerical values.
+			In grade 11 physics, students will learn about vectors and scalars and how
+			they are used to describe physical phenomena. They will also learn how to
+			perform operations with vectors, such as adding and subtracting them, and
+			how to use vectors to analyze the motion and behavior of physical systems.
+			<h1 style={{ marginTop: "4rem", marginBottom: "2rem" }} id={3}>
+				Distance and Displacement
+			</h1>
+			In physics, distance is a measure of how far apart two objects are, while
+			displacement is a measure of how far an object has moved from its starting
+			point. Distance is a scalar quantity, meaning it has only magnitude and no
+			direction, while displacement is a vector quantity, meaning it has both
+			magnitude and direction. In grade 11 physics, students will learn about
+			distance and displacement and how they are used to describe the motion of
+			objects. They will also learn about how to calculate distance and
+			displacement using various formulas and how to use them to analyze the
+			motion of objects. For example, students may learn about the relationship
+			between distance, speed, and time and how to use this relationship to
+			calculate the distance traveled by an object. They may also learn about
+			how to use displacement to determine the final position of an object after
+			it has moved a certain distance in a particular direction. Overall,
+			understanding the concepts of distance and displacement is essential for
+			analyzing and understanding the motion of objects in the physical world.
 		</div>,
-		<div key="1">
-			<h1 id={1}>Introduction</h1>
-			The Odin Project is an open-source community dedicated to providing the
-			best information sources to take you from zero to a full-stack developer.
-			More information can be found at The Odin Project’s about page. In this
-			unit, we’ll learn about how the web works and start thinking about the
-			basics of computer and web programming. Each of the following sections and
-			lessons represents essential baseline knowledge. Even if you have no
-			intention of becoming a web developer yourself, this material should help
-			you gain a useful understanding of the moving parts involved in creating
-			and serving content on the web. We will start by getting familiar with the
-			internet and your own computer. Next, we’ll work on setting up a
-			development environment and learning about Git and GitHub. Then, we’ll go
-			over the basics of front-end technologies like HTML, CSS, and Javascript
-			before stepping into the back end with a brief foray that covers the basic
-			concepts of back-end technologies. By the end of this unit, you should not
-			only understand how the web works but also be able to identify and
-			differentiate between all the technologies that you will use to build your
-			own web applications. You will be able to build a simple webpage, style
-			it, and add minor elements of interactivity while working comfortably from
-			the command line. This section intentionally covers a very broad range of
-			topics. It’s silly to go diving straight into server-side programming
-			without having a context for what it is and why it’s useful (and why you
-			should learn it!).
-			<h1>How It Works</h1>
-			This curriculum works by pulling together the best content from across the
-			internet for learning a particular topic. In each lesson, we’ll introduce
-			the topic and try to provide some useful context before pointing you to
-			external resources made by others. Most lessons will contain questions
-			that you should be able to answer before moving on. Some of the lessons
-			will ask you to complete exercises. In addition, we provide several
-			projects throughout the curriculum to help you grow your understanding by
-			actually building things. Try not to think of The Odin Project, or
-			programming, as a class in school. It’s not material you learn all at once
-			to take a test, and then pass or fail. You can think of it as a snowball.
-			You, yourself, are a snowball. You’re rolling down a hill full of snow;
-			the further you roll, the more snow will stick to you. Sure, snow will
-			also fall off you, and you’ll forget things often, but that’s just part of
-			the process. Don’t be scared if you get to a project and you feel like you
-			haven’t retained or memorized anything. That’s natural and happens to
-			everyone. The information will come back to you as you start solving your
-			problems one at a time, relying on Google and the Odin Community for help.
-			<h1 id={2}>A Note About Language</h1>
-			The Odin Project attracts people from all over the world who aspire to
-			learn how to become developers. Please be aware that this curriculum is
-			written in English and maintained by English speakers who are not able or
-			expected to translate it for you. As you develop into a programmer, you
-			will find that the world you are entering into is firmly rooted in the
-			English language. This means that the syntax of your programming language,
-			the documentation that teaches you how to use it, and the majority of the
-			people in the community are all expecting to communicate with you in
-			English. If you are a non-English speaker, or English is not a primary
-			language for you, this fact is not meant to discourage you, but to prepare
-			you. As another part of this preparation, we highly recommend spending
-			extra time on topics and terms that you do not understand right away. We
-			also encourage you to seek out additional resources that teach about these
-			topics in your own native language so you can understand them more fully.
-			In addition to this, you might also consider using a translation
-			dictionary in your own language alongside our curriculum so you can
-			readily reference it as you go. We do not have any recommendations on
-			these since there are such a wide variety of languages spoken throughout
-			the world, finding one may perhaps be a good first step in learning how to
-			find useful tools online by searching. This is a skill you will utilize
-			and improve as you progress in your learning to be a developer.
-			<h1 id={3}>What Comes Next</h1>
+		<div key="1" style={{ fontSize: "20px", textAlign: "justify" }}>
+			<h1 style={{ marginTop: "4rem", marginBottom: "2rem" }} id={1}>
+				Physics
+			</h1>
+			<div style={{ fontSize: "20px" }}>
+				Physics is the study of the fundamental principles that govern the
+				natural world. It is a broad field that encompasses a wide range of
+				topics, including classical mechanics, electricity and magnetism,
+				thermodynamics, and modern physics. In grade 11, students will begin to
+				explore the fundamental concepts of physics, including motion, energy,
+				and forces. They will learn about Newton{`'`}s laws of motion, which
+				describe how objects move and behave under the influence of various
+				forces. They will also study the principles of energy and work, and how
+				they are related to one another.
+			</div>
+			<h1 style={{ marginTop: "4rem", marginBottom: "2rem" }}>
+				Physics and Mathematics
+			</h1>
+			There is a strong correlation between physics and mathematics, as math is
+			an essential tool for understanding and describing the physical world. In
+			fact, many of the fundamental principles of physics can be expressed
+			mathematically, and much of the work in physics involves using math to
+			solve problems and make predictions. In grade 11 physics, students will
+			begin to see this correlation firsthand as they use math to analyze and
+			understand physical phenomena. For example, they may use algebra and
+			trigonometry to analyze the motion of objects under the influence of
+			various forces, or use calculus to understand how physical quantities
+			change over time. In addition to using math to analyze physical systems,
+			students will also learn about the mathematical models that are used to
+			describe physical phenomena. These models are based on the laws of physics
+			and allow scientists to make predictions about how the world will behave
+			in a given situation. Overall, the relationship between physics and math
+			is a close one, and a strong foundation in math is essential for success
+			in physics. By learning about the fundamental principles of physics and
+			how they are expressed mathematically, students will be better equipped to
+			understand and analyze the physical world.
+			<h1 style={{ marginTop: "4rem", marginBottom: "2rem" }} id={2}>
+				Uses of Dimension
+			</h1>
+			In physics, dimensions are a way of describing the size and scope of
+			physical phenomena. The most common dimensions are length, mass, and time,
+			which are used to describe the size, weight, and duration of objects and
+			events. In grade 11 physics, students will learn about the different
+			dimensions and how they are used to describe the physical world. They will
+			also learn about the International System of Units (SI), which is a
+			standardized system of units that is used to measure physical quantities.
+			In addition to measuring physical quantities, dimensions are also used to
+			describe the behavior of physical systems. For example, students may learn
+			about how the dimensions of an object can affect its motion or how the
+			dimensions of a space can influence the behavior of particles within it.
+			Overall, the study of dimensions is an important part of physics and is
+			essential for understanding the size, scale, and behavior of physical
+			phenomena. By learning about dimensions and how they are used to describe
+			the physical world, students will be better equipped to analyze and
+			understand the world around them.
+			<h1 style={{ marginTop: "4rem", marginBottom: "2rem" }} id={3}>
+				What Comes Next
+			</h1>
 			Once you’ve completed this course, you should feel comfortable with the
 			building blocks of web programming but itching to dig deeper. Though we
 			spend a fair bit of time digging into each of the major topics in this
@@ -212,39 +214,39 @@ export const foundationIndex = {
 	src: "https://media.discordapp.net/attachments/893444140770144267/1060977540325462126/image.png",
 	courseName: "Foundations Course",
 	courseOverview:
-		"This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses.",
+		"A foundation course is an educational program that helps students develop the knowledge and skills needed to succeed on competitive exams, such as the JEE or CET. These courses may include subject review, test-taking strategies, and practice exams.",
 	pageIndex: [
 		{
 			subject: "Physics",
-			section: "Units and mesaurements",
+			section: "Introduction to Physics",
 			subSection: [
-				"How this Course Will Work",
-				"Introduction to Web Development",
-				"Motivation and Mindset",
-				"Asking For Help",
-				"Join the Odin Community",
+				"World Of Physics",
+				"Physics and Mathematics",
+				"Uses of Dimension",
+				"Vectors and Scalars",
+				"Distance and Displacement",
 			],
 		},
 		{
 			subject: "Math",
-			section: "Units and mesaurements",
+			section: "Introuction to Mathematics",
 			subSection: [
-				"How this Course Will Work",
-				"Introduction to Web Development",
-				"Motivation and Mindset",
-				"Asking For Help",
-				"Join the Odin Community",
+				"Sets and functions",
+				"Relations and functions",
+				"Trignometric Functions",
+				"Sequences and Series",
+				"Principle of Mathematical Induction",
 			],
 		},
 		{
-			subject: "Chemistry",
-			section: "Units and mesaurements",
+			subject: "Physics",
+			section: "Kinematics",
 			subSection: [
-				"How this Course Will Work",
-				"Introduction to Web Development",
-				"Motivation and Mindset",
-				"Asking For Help",
-				"Join the Odin Community",
+				"Rest and Motion",
+				"Average Speed and Instantaenous Speed",
+				"Motion in a straight line",
+				"Motion in a Plane",
+				"Projectile Motion",
 			],
 		},
 	],

@@ -33,8 +33,8 @@ export default function Home() {
 						<div>
 							<div className={styles.mainTitle}>Opencademy</div>
 							<div className={styles.mainSubText}>
-								Our curriculum is free and supported by a passionate open source
-								community.
+								Our open source community offers free, passionate support for
+								our curriculum.
 							</div>
 						</div>
 						<Image

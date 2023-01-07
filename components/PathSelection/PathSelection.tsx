@@ -15,7 +15,7 @@ const PathSelection = () => {
 		<div className={styles.mainContainer}>
 			<div className={styles.container}>
 				<div className={styles.wideContainer}>
-					<div className={styles.heading}>Foundation Couses</div>
+					<div className={styles.heading}>Recommended Couses</div>
 					<div>
 						{wideCard.map((path, id) => (
 							<div key={id}>
