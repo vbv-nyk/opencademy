@@ -26,7 +26,7 @@ const LearnShowcasePage = () => {
 								alt="Learn Image"
 							/>
 						</div>
-						<div style={{ marginLeft: "2rem", marginRight: "2rem" }}>
+						<div>
 							<Image
 								className={styles.showcaseImage}
 								src={
@@ -59,7 +59,7 @@ const LearnShowcasePage = () => {
 								alt="Learn Image"
 							/>
 						</div>
-						<div style={{ marginLeft: "2rem", marginRight: "2rem" }}>
+						<div>
 							<Image
 								className={styles.showcaseImage}
 								src={
