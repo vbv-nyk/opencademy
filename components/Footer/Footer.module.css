@@ -1,0 +1,81 @@
+.footerContainer {
+	width: 100%;
+	height: 24rem;
+	text-align: center;
+	background: linear-gradient(to right, #000000, #020206, #090f1c);
+}
+
+.footerHeader {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	color: #fff;
+}
+
+.footerContributionContainer {
+	margin-top: 4rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-left: 18rem;
+	font-size: 1.5rem /* 24px */;
+	line-height: 2rem /* 32px */;
+	width: 18rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.footerGithubHeading {
+	--tw-text-opacity: 1;
+	color: rgb(169 166 248 / var(--tw-text-opacity));
+}
+
+.footerProjectContent {
+	text-align: justify;
+	margin-top: 1rem;
+	font-size: 1.125rem /* 18px */;
+	line-height: 1.75rem /* 28px */;
+}
+
+.footerSocialMedia {
+	margin-left: 4rem;
+	margin-right: 14rem;
+	margin-top: 4rem;
+	font-size: 1.5rem /* 24px */;
+	line-height: 2rem /* 32px */;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.socialMediaHeading {
+	font-size: 0.75rem /* 12px */;
+	line-height: 1rem /* 16px */;
+	margin-top: 1rem; /* 16px */
+}
+
+@media only screen and (max-width: 1024px) {
+	.footerContributionContainer {
+		margin-left: 12rem;
+	}
+
+	.footerProjectContent {
+		width: 9rem;
+	}
+	.footerSocialMedia {
+		width: 24rem;
+		margin-top: 4rem;
+		margin-left: 9rem;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.footerProjectContent {
+		width: 9rem;
+	}
+	.footerSocialMedia {
+		width: 24rem;
+		margin-top: 4rem;
+	}
+}

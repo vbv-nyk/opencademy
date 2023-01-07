@@ -6,12 +6,12 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 6rem;
+	height: 5rem;
 }
 
 .parallelSelectionLogo {
-	height: 6rem;
-	width: 6rem;
+	height: 5rem;
+	width: 5rem;
 	margin: 1rem 6rem;
 }
 
@@ -22,7 +22,7 @@
 	flex-direction: row;
 	text-decoration: none;
 	list-style: none;
-	margin: 1.3rem 2rem;
+	margin: 1.1rem 2rem;
 }
 
 .navbarContainer {
