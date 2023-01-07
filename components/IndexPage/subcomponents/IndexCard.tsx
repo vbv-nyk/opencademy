@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Router, useRouter } from "next/router";
 import { Fragment } from "react";
 import styles from "./IndexCard.module.css";
+import { renderToString } from "react-dom/server";
 
 interface pageObject {
   subject: string;
@@ -11,7 +12,7 @@ interface pageObject {
 }
 
 interface Props {
-  dataPath: Object;
+  dataPath: any;
   src: string;
   courseName: string;
   courseOverview: string;
@@ -20,6 +21,7 @@ interface Props {
 
 export default function IndexCard({ ...props }: Props) {
   const router = useRouter();
+
   const cards = props.pageIndex.map((card, index) => {
     const subSection = card.subSection.map((subSection, index) => {
       return (
@@ -29,7 +31,9 @@ export default function IndexCard({ ...props }: Props) {
             onClick={() => {
               router.push({
                 pathname: "/maincontent",
-                query: { id: index },
+                query: {
+                  id: index,
+                },
               });
             }}
           >

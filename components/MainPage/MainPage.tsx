@@ -2,6 +2,8 @@ import { foundationContent } from "../../pages/api/courseContentAPI";
 import Header from "../Header/Header";
 import styles from "./MainPage.module.css";
 import Sidebar from "./subComponents/Sidebar";
+import { renderToString } from "react-dom/server";
+import { hydrate } from "react-dom";
 
 export default function MainPage(props: any) {
   const markup = foundationContent.content[props.id];
