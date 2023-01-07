@@ -1,7 +1,9 @@
 import { Card } from "antd"
 import Link from "next/link"
+import { Router, useRouter } from "next/router"
 import { Fragment } from "react"
 import styles from "./IndexCard.module.css"
+import { renderToString } from "react-dom/server"
 
 interface pageObject {
 	subject: string
@@ -10,7 +12,7 @@ interface pageObject {
 }
 
 interface Props {
-	dataPath: Object
+	dataPath: any
 	src: string
 	courseName: string
 	courseOverview: string
@@ -18,13 +20,25 @@ interface Props {
 }
 
 export default function IndexCard({ ...props }: Props) {
-	const cards = props.pageIndex?.map((card, index) => {
+	const router = useRouter()
+
+	const cards = props.pageIndex.map((card, index) => {
 		const subSection = card.subSection.map((subSection, index) => {
 			return (
 				<li className={styles.listItem} key={index}>
-					<Link className={styles.listLinks} href="/">
+					<div
+						className={styles.listLinks}
+						onClick={() => {
+							router.push({
+								pathname: "/maincontent",
+								query: {
+									id: index,
+								},
+							})
+						}}
+					>
 						{subSection}
-					</Link>
+					</div>
 				</li>
 			)
 		})
