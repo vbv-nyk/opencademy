@@ -3,8 +3,8 @@ import Header from "../Header/Header";
 import styles from "./MainPage.module.css";
 import Sidebar from "./subComponents/Sidebar";
 
-export default function MainPage() {
-  const markup = foundationContent.content[0];
+export default function MainPage(props: any) {
+  const markup = foundationContent.content[props.id];
   return (
     <div>
       <Header />
