@@ -9,6 +9,7 @@ import Image from "next/image"
 import Link from "next/link"
 import StreamModal from "../components/subComponents/streamChoiceOverlay/subcomponents/StreamModal"
 import WorkingPage from "../components/WorkingPage/WorkingPage"
+import LearnShowcasePage from "../components/LearnShowcasePage/LearnShowcasePage"
 
 export default function Home() {
 	const [curriculumModal, setCurriculumModal] = useState(false)
@@ -52,6 +53,7 @@ export default function Home() {
 			</div>
 			{/* Second Section Working Section */}
 			<WorkingPage />
+			<LearnShowcasePage />
 			<Footer />
 		</div>
 	)

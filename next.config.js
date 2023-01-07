@@ -3,7 +3,11 @@ const nextConfig = {
 	reactStrictMode: true,
 	swcMinify: true,
 	images: {
-		domains: ["play-lh.googleusercontent.com", "media.discordapp.net"],
+		domains: [
+			"play-lh.googleusercontent.com",
+			"media.discordapp.net",
+			"www.theodinproject.com",
+		],
 	},
 }
 
