@@ -40,9 +40,11 @@
 	width: 100%;
 	margin-top: 4rem;
 	grid-template-columns: repeat(3, 1fr);
+	margin-bottom: 6rem;
 }
 
 .showcaseTextHeading {
+	margin-top: 4rem;
 	font-weight: 600;
 	font-size: 3rem;
 }
@@ -65,7 +67,16 @@
 }
 
 @media (max-width: 640px) {
+	.showcaseTextHeading {
+		font-weight: 600;
+		font-size: 2rem;
+	}
+
 	.showcaseSection {
 		height: 150%;
+	}
+
+	.showcaseImageContainer {
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
