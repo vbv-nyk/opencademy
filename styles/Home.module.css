@@ -65,7 +65,7 @@
 
 .abstractDesign {
 	position: relative;
-	top: 10%;
+	top: 15%;
 	width: 50%;
 	height: 60%;
 	background-color: #cbcbcb;
@@ -157,7 +157,7 @@
 .workingContainer {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	height: 100%;
 	width: 70%;
@@ -169,11 +169,12 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	padding-bottom: 2rem;
 }
 
 .workingTextContent {
 	width: 100%;
-	font-size: 2rem;
+	font-size: 1rem;
 }
 
 .workingImageContainer {
@@ -184,23 +185,23 @@
 
 .workingTextHeading {
 	font-weight: 600;
-	font-size: 5rem;
+	font-size: 4rem;
 }
 
 .siteWorkingContainer {
 	display: flex;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 
 .siteWorkingTitle {
 	font-weight: 600;
-	font-size: 2rem;
+	font-size: 1.3rem;
 	padding: 2rem;
 }
 
 .workingImage {
-	width: 95%;
-	height: 90%;
+	width: 85%;
+	height: 80%;
 }
 
 @media (max-width: 640px) {
