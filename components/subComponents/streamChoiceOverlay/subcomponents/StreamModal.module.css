@@ -1,64 +1,65 @@
 .modalOverlay {
-	z-index: 15;
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: rgba(0, 0, 0, 0.842);
+  z-index: 15;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.842);
 }
 
 .modalContainer {
-	background-color: #10162f;
-	height: 50%;
-	border-radius: 25px;
+  background-color: #10162f;
+  border-radius: 25px;
 }
 
 .modalHeader {
-	color: white;
-	text-align: center;
-	font-weight: bold;
-	font-size: 2rem;
-	padding: 20px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 20px;
 }
 
 .modalBody {
-	padding: 0px 40px 0px 40px;
-	border-radius: 25px;
-	display: flex;
-	gap: 25px;
+  padding: 0px 40px 0px 40px;
+  border-radius: 25px;
+  display: flex;
+  gap: 25px;
 }
 
 .courseImage {
-	height: 12rem;
+  height: 12rem;
+  width: 13rem;
+  border-radius: 5px;
 }
 
 .courseContainer {
-	display: flex;
-	gap: 18px;
-	flex-direction: column;
-	align-items: center;
-	transition: all 200ms ease-in-out;
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+  align-items: center;
+  transition: all 200ms ease-in-out;
 }
 
 .courseContainer:hover {
-	transform: scale(110%);
+  transform: scale(110%);
 }
 
 .courseName {
-	color: white;
-	font-weight: bold;
-	font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .modalFooter {
-	text-align: end;
-	margin-right: 30px;
-	padding: 20px;
-	color: white;
+  text-align: end;
+  margin-right: 30px;
+  padding: 20px;
+  color: white;
 }
