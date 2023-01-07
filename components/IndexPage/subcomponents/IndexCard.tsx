@@ -1,4 +1,5 @@
 import { Card } from "antd";
+import Link from "next/link";
 import { Fragment } from "react";
 import styles from "./IndexCard.module.css";
 
@@ -9,6 +10,7 @@ interface pageObject {
 }
 
 interface Props {
+  dataPath: Object;
   src: string;
   courseName: string;
   courseOverview: string;
@@ -20,7 +22,9 @@ export default function IndexCard({ ...props }: Props) {
     const subSection = card.subSection.map((subSection, index) => {
       return (
         <li className={styles.listItem} key={index}>
-          {subSection}
+          <Link className={styles.listLinks} href="/">
+            {subSection}
+          </Link>
         </li>
       );
     });

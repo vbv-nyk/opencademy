@@ -27,6 +27,11 @@
 
 .listItem {
   padding: 7px;
+  color: blue;
+}
+
+.listLinks {
+  color: blue;
 }
 
 .listItem:hover {

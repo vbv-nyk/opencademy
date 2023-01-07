@@ -1,45 +1,15 @@
-export const foundationIndex = {
-  src: "https://media.discordapp.net/attachments/893444140770144267/1060977540325462126/image.png",
-  courseName: "Foundations Course",
-  courseOverview:
-    "This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses.",
-  pageIndex: [
-    {
-      subject: "Physics",
-      section: "Units and mesaurements",
-      subSection: [
-        "How this Course Will Work",
-        "Introduction to Web Development",
-        "Motivation and Mindset",
-        "Asking For Help",
-        "Join the Odin Community",
-      ],
-    },
-    {
-      subject: "Math",
-      section: "Units and mesaurements",
-      subSection: [
-        "How this Course Will Work",
-        "Introduction to Web Development",
-        "Motivation and Mindset",
-        "Asking For Help",
-        "Join the Odin Community",
-      ],
-    },
-  ],
-};
 //for each item in index page
 export const foundationContent = {
-  mainTitle: "",
-  subTitle: "",
+  mainTitle: "Units and mesaurements",
+  subTitle: "How this Course Will Work",
   sections: [
     "Introduction",
     "How It Works",
     "A Note About Language",
     "What Comes Next",
   ],
-  content: (
-    <div>
+  content: [
+    <div key="0">
       <h1 id={1}>Introduction</h1>
       The Odin Project is an open-source community dedicated to providing the
       best information sources to take you from zero to a full-stack developer.
@@ -129,8 +99,8 @@ export const foundationContent = {
       required, so consider it supplemental. It looks like this lesson doesn’t
       have any additional resources yet. Help us expand this section by
       contributing to our curriculum.
-    </div>
-  ),
+    </div>,
+  ],
 
   assignments: [
     {
@@ -141,6 +111,37 @@ export const foundationContent = {
           videoURL: ``,
           imageURL: ``,
         },
+      ],
+    },
+  ],
+};
+export const foundationIndex = {
+  dataPath: foundationContent,
+  src: "https://media.discordapp.net/attachments/893444140770144267/1060977540325462126/image.png",
+  courseName: "Foundations Course",
+  courseOverview:
+    "This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses.",
+  pageIndex: [
+    {
+      subject: "Physics",
+      section: "Units and mesaurements",
+      subSection: [
+        "How this Course Will Work",
+        "Introduction to Web Development",
+        "Motivation and Mindset",
+        "Asking For Help",
+        "Join the Odin Community",
+      ],
+    },
+    {
+      subject: "Math",
+      section: "Units and mesaurements",
+      subSection: [
+        "How this Course Will Work",
+        "Introduction to Web Development",
+        "Motivation and Mindset",
+        "Asking For Help",
+        "Join the Odin Community",
       ],
     },
   ],

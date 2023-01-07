@@ -19,11 +19,10 @@
 
 .listItem:hover {
   text-decoration: underline;
-  color: grey;
 }
 
 .listItem:visited {
-  color: gray;
+  color: black;
 }
 
 .listItem:last-child {
