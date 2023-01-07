@@ -1,3 +1,4 @@
+import styles from "../../components/MainPage/MainPage.module.css";
 //for each item in index page
 export const foundationContent = {
   mainTitle: "Units and mesaurements",

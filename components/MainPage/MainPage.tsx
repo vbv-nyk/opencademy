@@ -2,11 +2,6 @@ import { foundationContent } from "../../pages/api/courseContentAPI";
 import Header from "../Header/Header";
 import styles from "./MainPage.module.css";
 import Sidebar from "./subComponents/Sidebar";
-import ReactHtmlParser, {
-  processNodes,
-  convertNodeToElement,
-  htmlparser2,
-} from "react-html-parser";
 
 import { renderToString } from "react-dom/server";
 import { hydrate } from "react-dom";
@@ -23,7 +18,7 @@ export default function MainPage(props: any) {
           <div className={styles.mainTitle}>{props.title}</div>
           <div className={styles.subTitle}>{props.subSection}</div>
         </div>
-        <div>{ReactHtmlParser(markup)}</div>
+        <div dangerouslySetInnerHTML={{ __html: markup }}></div>
         <Sidebar />
       </div>
     </div>
