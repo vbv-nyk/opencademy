@@ -27,7 +27,7 @@ const StreamModal: React.FC = () => {
           </Link>
           <div className={styles.courseContainer}>
             <Image
-              src="https://cdn-icons-png.flaticon.com/512/3870/3870658.png"
+              src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png"
               className={styles.courseImage}
               height={200}
               width={300}
@@ -37,7 +37,7 @@ const StreamModal: React.FC = () => {
           </div>
           <div className={styles.courseContainer}>
             <Image
-              src="https://media.discordapp.net/attachments/893444140770144267/1061392109069934653/R.png"
+              src="https://cdn-icons-png.flaticon.com/512/7514/7514333.png"
               className={styles.courseImage}
               height={700}
               width={180}
