@@ -1,0 +1,21 @@
+.assignmentCard {
+  background-color: #34394e;
+  border-radius: 25px;
+  padding: 20px;
+  color: white;
+}
+
+.assignmentInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.assignmentVideo {
+  color: orange;
+  margin-left: 25px;
+}
+
+.assignmentImage {
+  color: rgb(91, 147, 237);
+  margin-left: 25px;
+}
