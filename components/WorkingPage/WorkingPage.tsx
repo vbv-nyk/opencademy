@@ -10,9 +10,7 @@ const WorkingPage = () => {
 			<div className={styles.workingSection}>
 				<div className={styles.workingContainer}>
 					<div className={styles.workingTextContainer}>
-						<div className={styles.workingTextHeading}>
-							Explanation of the process
-						</div>
+						<div className={styles.workingTextHeading}>How it works</div>
 						<div className={styles.workingTextContent}>
 							This website is a compilation of the best resources we could find
 							online, organized in a logical order to aid self-guided learning.
