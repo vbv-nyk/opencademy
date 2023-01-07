@@ -14,7 +14,7 @@ const Footer = () => {
 					</span>
 				</div>
 				<div className={styles.footerSocialMedia}>
-					<span className={styles.socialMediaText}>Contribute using</span>
+					<span className={styles.socialMediaText}>Contribute</span>
 					<span className={styles.socialMediaHeading}>Github</span>
 					<a
 						style={{ marginTop: "1rem" }}
