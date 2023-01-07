@@ -1,0 +1,21 @@
+.indexPage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: max(100%, 500px);
+}
+
+.overviewHeader {
+  font-weight: bolder;
+  width: max(500px, 100%);
+  max-width: 800px;
+}
+
+.courseOverview {
+  width: max(500px, 100%);
+  max-width: 800px;
+}
