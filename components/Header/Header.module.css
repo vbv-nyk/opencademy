@@ -1,5 +1,6 @@
 .header {
 	border: 1px solid #000;
+	z-index: 14;
 }
 
 .container {
@@ -44,6 +45,12 @@
 	padding: 1rem 3rem;
 	border-radius: 50px;
 	background-color: #fff;
+	transition: all 200ms ease-in-out;
+	cursor: pointer;
+}
+
+.askButton:hover {
+	transform: scale(110%);
 }
 
 .askButton > a {

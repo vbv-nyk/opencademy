@@ -12,9 +12,10 @@ const WorkingPage = () => {
 					<div className={styles.workingTextContainer}>
 						<div className={styles.workingTextHeading}>How it works</div>
 						<div className={styles.workingTextContent}>
-							This is the website we wish we had when we were learning on our
-							own. We scour the internet looking for only the best resources to
-							supplement your learning and present them in a logical order.
+							This website is a compilation of the best resources we could find
+							online, organized in a logical order to aid self-guided learning.
+							We wish we had had access to something like this when we were
+							learning on our own.
 						</div>
 					</div>
 					<div className={styles.workingImageContainer}>
@@ -43,24 +44,26 @@ const WorkingPage = () => {
 
 					<div className={styles.siteWorkingContainer}>
 						<div>
-							<div className={styles.siteWorkingTitle}>Learn</div>
+							<div className={styles.siteWorkingTitle}>Gain knowledge</div>
 							<div className={styles.siteWorkingContent}>
-								Learn from a curriculum with the best curated online tutorials,
-								blogs, and courses.
+								Gain knowledge from a carefully selected collection of online
+								tutorials, blogs, and courses.
 							</div>
 						</div>
 						<div style={{ marginLeft: "2rem", marginRight: "2rem" }}>
-							<div className={styles.siteWorkingTitle}>Workout </div>
+							<div className={styles.siteWorkingTitle}>Assignments</div>
 							<div className={styles.siteWorkingContent}>
-								Learn from a curriculum with the best curated online tutorials,
-								blogs, and courses.
+								Acquire knowledge from a curriculum that has carefully selected
+								the best online tutorials, blogs, and courses.
 							</div>
 						</div>
 						<div>
-							<div className={styles.siteWorkingTitle}>Connect</div>
+							<div className={styles.siteWorkingTitle}>
+								Establish a connection
+							</div>
 							<div className={styles.siteWorkingContent}>
-								Learn from a curriculum with the best curated online tutorials,
-								blogs, and courses.
+								Join our supportive community of beginner and experienced people
+								and receive assistance as you learn.
 							</div>
 						</div>
 					</div>
