@@ -5,5 +5,5 @@ import Sidebar from "../components/MainPage/subComponents/Sidebar";
 import MainPage from "../components/MainPage/MainPage";
 
 export default function Home() {
-  return <MainPage />;
+  return <IndexPage {...foundationIndex} />;
 }
