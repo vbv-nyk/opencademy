@@ -1,6 +1,8 @@
 .assignmentCard {
   background-color: #34394e;
   border-radius: 25px;
+  width: max(100%, 300px);
+  max-width: 600px;
   padding: 20px;
   color: white;
 }
@@ -11,11 +13,14 @@
 }
 
 .assignmentVideo {
+  word-wrap: break-word;
   color: orange;
   margin-left: 25px;
 }
 
 .assignmentImage {
+  word-wrap: break-word;
+
   color: rgb(91, 147, 237);
   margin-left: 25px;
 }
