@@ -1,4 +1,6 @@
 export const foundationIndex = {
+  src: "https://media.discordapp.net/attachments/893444140770144267/1060977540325462126/image.png",
+  courseName: "Foundations Course",
   courseOverview: "",
   pageIndex: [
     {

@@ -9,6 +9,8 @@ interface pageObject {
 }
 
 interface Props {
+  src: string;
+  courseName: string;
   courseOverview: string;
   pageIndex: Array<pageObject>;
 }
