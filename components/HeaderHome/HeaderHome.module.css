@@ -1,0 +1,71 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 6rem;
+	position: relative;
+	top: 5rem;
+}
+
+.parallelSelectionLogo {
+	height: 7rem;
+	width: 7rem;
+	margin: 1rem 4rem;
+}
+
+.navItems {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	text-decoration: none;
+	list-style: none;
+	margin: 1.3rem 2rem;
+}
+
+.navbarContainer {
+	width: 500px;
+	background-color: var(--color-secondary);
+}
+
+.blogLink {
+	font-weight: 600;
+	margin: 1rem 4rem;
+}
+
+.blogLink > a {
+	text-decoration: none;
+	color: var(--color-primary);
+}
+
+.askButton {
+	padding: 1rem 3rem;
+	border-radius: 50px;
+	background-color: var(--color-primary);
+}
+
+.askButton > a {
+	text-overflow: ellipsis;
+	font-weight: 600;
+	text-decoration: none;
+	color: #fff;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 640px) {
+	.container {
+		height: 6.8rem;
+	}
+
+	.navItems {
+		margin: 1rem 1rem;
+	}
+
+	.parallelSelectionLogo {
+		height: 6rem;
+		width: 6rem;
+		margin: 1rem 4rem;
+	}
+}

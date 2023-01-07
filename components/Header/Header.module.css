@@ -1,0 +1,73 @@
+.header {
+	border: 1px solid #000;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 6rem;
+}
+
+.parallelSelectionLogo {
+	height: 6rem;
+	width: 6rem;
+	margin: 1rem 6rem;
+}
+
+.navItems {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	text-decoration: none;
+	list-style: none;
+	margin: 1.3rem 2rem;
+}
+
+.navbarContainer {
+	width: 500px;
+	background-color: var(--color-primary);
+}
+
+.blogLink {
+	font-weight: 600;
+	margin: 1rem 4rem;
+}
+
+.blogLink > a {
+	text-decoration: none;
+	color: white;
+}
+
+.askButton {
+	padding: 1rem 3rem;
+	border-radius: 50px;
+	background-color: #fff;
+}
+
+.askButton > a {
+	text-overflow: ellipsis;
+	font-weight: 600;
+	text-decoration: none;
+	color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 640px) {
+	.container {
+		height: 6.8rem;
+	}
+
+	.navItems {
+		margin: 1rem 1rem;
+	}
+
+	.parallelSelectionLogo {
+		height: 6rem;
+		width: 6rem;
+		margin: 1rem 4rem;
+	}
+}

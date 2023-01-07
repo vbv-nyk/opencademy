@@ -1,0 +1,168 @@
+.mainContainer {
+	width: 100%;
+	height: 100vh;
+}
+
+.mainBG {
+	height: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	object-fit: contain;
+}
+
+.headingContainer {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -100%);
+	overflow: hidden;
+	z-index: 5;
+	text-align: center;
+	border: 1px solid #10162f;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.mainTitle {
+	font-size: 5rem;
+	color: #2e0139;
+}
+
+.mainSubText {
+	font-size: 1.2rem;
+	color: #747474;
+	text-overflow: ellipsis;
+	text-align: center;
+	max-width: 70%;
+}
+
+.curriculumBtn {
+	color: #10162f;
+	padding: 0.5rem 1.5rem;
+	border: 5px solid #10162f;
+}
+
+.buttonContainer {
+	position: absolute;
+	bottom: 15%;
+	right: 15%;
+}
+
+.button {
+	color: #10162f;
+	padding: 0.75rem 1.5rem;
+	border: 2px solid #10162f;
+	border-radius: 10px;
+	transition: all 00ms ease-in-out;
+}
+
+.button:hover {
+	transform: scale(110%);
+}
+
+@media (max-width: 1024px) {
+	.headingContainer {
+		transform: translate(-20%, -50%);
+	}
+	.mainTitle {
+		font-size: 4rem;
+	}
+	.mainSubText {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 640px) {
+	.mainContainer {
+		height: 150vh;
+	}
+	.mainBG {
+		object-fit: cover;
+		height: 100%;
+	}
+	.headingContainer {
+		transform: translate(-12%, -20%);
+	}
+	.mainTitle {
+		font-size: 6rem;
+	}
+	.mainSubText {
+		max-width: 80%;
+		font-size: 1rem;
+	}
+	.buttonContainer {
+		bottom: 10%;
+		right: -35%;
+	}
+}
+
+/* Working Section */
+
+.workingSection {
+	color: #fff;
+	width: 100%;
+	height: 100vh;
+	background-color: var(--color-primary);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.workingContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	width: 70%;
+}
+
+.workingTextContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.workingTextContent {
+	width: 100%;
+	font-size: 2rem;
+}
+
+.workingImageContainer {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.workingTextHeading {
+	font-weight: 600;
+	font-size: 5rem;
+}
+
+.siteWorkingContainer {
+	display: flex;
+	font-size: 1.5rem;
+}
+
+.siteWorkingTitle {
+	font-weight: 600;
+	font-size: 2rem;
+	padding: 2rem;
+}
+
+.workingImage {
+	width: 95%;
+	height: 90%;
+}
+
+@media (max-width: 640px) {
+	.workingSection {
+		height: 150%;
+	}
+}
