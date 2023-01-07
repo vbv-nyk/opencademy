@@ -7,8 +7,6 @@ import { renderToString } from "react-dom/server";
 import { hydrate } from "react-dom";
 
 export default function MainPage(props: any) {
-  console.log(props);
-  const div = document.createElement("div");
   const markup = props.dataPath;
   return (
     <div>
