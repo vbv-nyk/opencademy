@@ -16,7 +16,7 @@ export const foundationContent = {
 			style={{ fontSize: "20px", textAlign: "justify", marginBottom: "6rem" }}
 		>
 			<h1 style={{ marginTop: "4rem", marginBottom: "2rem" }} id={1}>
-				Physics and Mathematics
+				World Of Physics
 			</h1>
 			<div style={{ fontSize: "20px" }}>
 				There is a strong correlation between physics and mathematics, as math
