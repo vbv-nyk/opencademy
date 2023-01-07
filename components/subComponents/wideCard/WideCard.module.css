@@ -1,5 +1,6 @@
 .cardContainer {
-  width: 60%;
+  width: max(100%, 600px);
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }

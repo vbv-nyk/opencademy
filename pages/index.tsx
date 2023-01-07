@@ -8,5 +8,5 @@ import AssignmentCard from "../components/subComponents/assignmentCard/Assignmen
 import LongCard from "../components/longCard/LongCard";
 
 export default function Home() {
-  return <LongCard />;
+  return <WideCard />;
 }
