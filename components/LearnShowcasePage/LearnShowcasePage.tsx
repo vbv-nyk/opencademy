@@ -1,7 +1,12 @@
 import React from "react"
 import styles from "./LearnShowcasePage.module.css"
 import LearnIMG from "../../public/assets/learn.png"
-import workoutIMG from "../../public/assets/workout.png"
+import jeeIMG from "../../public/svg/jee.svg"
+import advanceIMG from "../../public/svg/advance.svg"
+import gateIMG from "../../public/svg/gate.svg"
+import neetIMG from "../../public/svg/neet.svg"
+import cetIMG from "../../public/svg/cet.svg"
+import kvpyIMG from "../../public/svg/kvpy.svg"
 import Link from "next/link"
 import Image from "next/image"
 const LearnShowcasePage = () => {
@@ -18,9 +23,7 @@ const LearnShowcasePage = () => {
 						<div>
 							<Image
 								className={styles.showcaseImage}
-								src={
-									"https://www.theodinproject.com/assets/badge-ruby-on-rails-5c5f3a237abf4d3d3cb3d7efc64cdbd9e493b876bd7a64c8b70977204d93ddaa.svg"
-								}
+								src={jeeIMG}
 								width={100}
 								height={400}
 								alt="Learn Image"
@@ -29,9 +32,7 @@ const LearnShowcasePage = () => {
 						<div>
 							<Image
 								className={styles.showcaseImage}
-								src={
-									"https://www.theodinproject.com/assets/badge-ruby-on-rails-5c5f3a237abf4d3d3cb3d7efc64cdbd9e493b876bd7a64c8b70977204d93ddaa.svg"
-								}
+								src={advanceIMG}
 								width={100}
 								height={400}
 								alt="Workout Image"
@@ -40,9 +41,7 @@ const LearnShowcasePage = () => {
 						<div>
 							<Image
 								className={styles.showcaseImage}
-								src={
-									"https://www.theodinproject.com/assets/badge-ruby-on-rails-5c5f3a237abf4d3d3cb3d7efc64cdbd9e493b876bd7a64c8b70977204d93ddaa.svg"
-								}
+								src={kvpyIMG}
 								width={100}
 								height={400}
 								alt="Learn Image"
@@ -51,9 +50,7 @@ const LearnShowcasePage = () => {
 						<div>
 							<Image
 								className={styles.showcaseImage}
-								src={
-									"https://www.theodinproject.com/assets/badge-ruby-on-rails-5c5f3a237abf4d3d3cb3d7efc64cdbd9e493b876bd7a64c8b70977204d93ddaa.svg"
-								}
+								src={neetIMG}
 								width={100}
 								height={400}
 								alt="Learn Image"
@@ -62,9 +59,7 @@ const LearnShowcasePage = () => {
 						<div>
 							<Image
 								className={styles.showcaseImage}
-								src={
-									"https://www.theodinproject.com/assets/badge-ruby-on-rails-5c5f3a237abf4d3d3cb3d7efc64cdbd9e493b876bd7a64c8b70977204d93ddaa.svg"
-								}
+								src={cetIMG}
 								width={100}
 								height={400}
 								alt="Learn Image"
@@ -73,9 +68,7 @@ const LearnShowcasePage = () => {
 						<div>
 							<Image
 								className={styles.showcaseImage}
-								src={
-									"https://www.theodinproject.com/assets/badge-ruby-on-rails-5c5f3a237abf4d3d3cb3d7efc64cdbd9e493b876bd7a64c8b70977204d93ddaa.svg"
-								}
+								src={gateIMG}
 								width={100}
 								height={400}
 								alt="Learn Image"

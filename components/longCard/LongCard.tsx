@@ -1,5 +1,7 @@
 import { Button, Card } from "antd"
+import jeeIMG from "../../public/svg/jee.svg"
 import styles from "./LongCard.module.css"
+import Image from "next/image"
 
 interface Props {
 	cardType: string
@@ -16,7 +18,13 @@ export default function LongCard({ ...props }: Props) {
 				className={styles.longCard}
 				title={
 					<div className={styles.courseImageContainer}>
-						<img className={styles.courseImage} src={props.imageURL} alt="" />
+						<Image
+							className={styles.courseImage}
+							src={props.imageURL}
+							width={100}
+							height={400}
+							alt="Learn Image"
+						/>
 						<div className={styles.pathDetails}>
 							<div className={styles.pathCount}>PATH</div>
 							<div className={styles.courseCount}>{props.courseCount}</div>

@@ -1,17 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-  images: {
-    domains: [
-      "play-lh.googleusercontent.com",
-      "media.discordapp.net",
-      "www.theodinproject.com",
-      "https://media.discordapp.net/attachments",
-      "images.pexels.com",
-      "cdn-icons-png.flaticon.com",
-    ],
-  },
-};
+	reactStrictMode: true,
+	swcMinify: true,
+	images: {
+		domains: [
+			"play-lh.googleusercontent.com",
+			"media.discordapp.net",
+			"www.theodinproject.com",
+			"https://media.discordapp.net/attachments",
+			"images.pexels.com",
+			"cdn-icons-png.flaticon.com",
+			"cdn.discordapp.com",
+		],
+	},
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
