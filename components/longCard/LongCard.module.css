@@ -1,51 +1,51 @@
 .cardContainer {
-  width: fit-content;
-  box-shadow: 1px 1px 1px 1px rgba(171, 160, 160, 0.678);
-  margin: 10px;
+	width: fit-content;
+	box-shadow: 1px 1px 1px 1px rgba(171, 160, 160, 0.678);
+	margin: 10px;
 }
 .longCard {
-  width: max(300px, 100%);
-  max-width: 600px;
+	width: max(200px, 100%);
+	max-width: 400px;
 }
 
 .courseImageContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .courseImage {
-  height: 100px;
-  width: 100px;
-  margin: 30px;
+	height: 100px;
+	width: 100px;
+	margin: 30px;
 }
 
 .pathDetails {
-  padding: 15px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+	padding: 15px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 
 .pathCount {
-  color: #bf7b32;
-  font-weight: 400;
+	color: #bf7b32;
+	font-weight: 400;
 }
 
 .pathName {
-  font-weight: 400;
-  font-size: medium;
+	font-weight: 400;
+	font-size: medium;
 }
 .courseCount {
-  color: #967684;
-  font-weight: 300;
+	color: #967684;
+	font-weight: 300;
 }
 
 .pathDesc {
-  color: #967684;
+	color: #967684;
 }
 
 .pathDescriptionContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
