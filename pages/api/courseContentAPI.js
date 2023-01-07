@@ -30,16 +30,16 @@ export const foundationIndex = {
 };
 //for each item in index page
 export const foundationContent = {
-  mainTitle: "",
-  subTitle: "",
+  mainTitle: "Units and mesaurements",
+  subTitle: "How this Course Will Work",
   sections: [
     "Introduction",
     "How It Works",
     "A Note About Language",
     "What Comes Next",
   ],
-  content: (
-    <div>
+  content: [
+    <div key="0">
       <h1 id={1}>Introduction</h1>
       The Odin Project is an open-source community dedicated to providing the
       best information sources to take you from zero to a full-stack developer.
@@ -129,8 +129,8 @@ export const foundationContent = {
       required, so consider it supplemental. It looks like this lesson doesn’t
       have any additional resources yet. Help us expand this section by
       contributing to our curriculum.
-    </div>
-  ),
+    </div>,
+  ],
 
   assignments: [
     {
