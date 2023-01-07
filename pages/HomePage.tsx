@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import HeaderHome from "../components/HeaderHome/HeaderHome"
 import styles from "../styles/Home.module.css"
 import MainBG from "../public/assets/mainpagebg.png"
+import PaperMashe from "../public/assets/papermashe.svg"
 import LearnIMG from "../public/assets/learn.png"
 import workoutIMG from "../public/assets/workout.png"
 import Image from "next/image"
@@ -12,15 +13,26 @@ const HomePage = () => {
 			<HeaderHome />
 			<div className={styles.mainContainer}>
 				<Image className={styles.mainBG} src={MainBG} alt="BackgroundImage" />
-				<div className={styles.headingContainer}>
-					<div className={styles.mainTitle}>Opencademy</div>
-					<div className={styles.mainSubText}>
-						Our curriculum is free and supported by a passionate open source
-						community.
+				<div className={styles.container}>
+					<div className={styles.abstractDesign}></div>
+					<div className={styles.headingContainer}>
+						<div>
+							<div className={styles.mainTitle}>Opencademy</div>
+							<div className={styles.mainSubText}>
+								Our curriculum is free and supported by a passionate open source
+								community.
+							</div>
+						</div>
+						<Image
+							className={styles.paperImage}
+							src={PaperMashe}
+							alt="papermashe"
+						/>
 					</div>
-				</div>
-				<div className={styles.buttonContainer}>
-					<div className={styles.button}>View Curriculum</div>
+					<div className={styles.buttonContainer}>
+						<div className={styles.button}>View Curriculum</div>
+						<div className={styles.abstractDesign}></div>
+					</div>
 				</div>
 			</div>
 			<div className={styles.workingSection}>

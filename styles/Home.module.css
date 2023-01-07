@@ -1,41 +1,54 @@
 .mainContainer {
-	width: 100%;
+	display: flex;
 	height: 100vh;
 }
 
 .mainBG {
+	width: 100%;
 	height: 100%;
-	max-width: 100%;
-	overflow: hidden;
-	object-fit: contain;
+	object-fit: cover;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: auto;
+}
+
+.abstractDesign {
+	width: 5rem;
+	height: 10rem;
+	background-color: beige;
+}
+
+.paperImage {
+	width: 80%;
+	height: 70%;
+}
+
+.headingContainer > div {
+	position: absolute;
+	text-align: center;
 }
 
 .headingContainer {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -100%);
-	overflow: hidden;
-	z-index: 5;
-	text-align: center;
-	border: 1px solid #10162f;
 	display: flex;
-	align-items: center;
 	justify-content: center;
-	flex-direction: column;
+	align-items: center;
+	position: relative;
+	bottom: 20%;
 }
 
 .mainTitle {
 	font-size: 5rem;
-	color: #2e0139;
+	color: #10162f;
 }
 
 .mainSubText {
-	font-size: 1.2rem;
-	color: #747474;
-	text-overflow: ellipsis;
-	text-align: center;
-	max-width: 70%;
+	color: var(--color-secondary);
 }
 
 .curriculumBtn {
@@ -45,16 +58,32 @@
 }
 
 .buttonContainer {
-	position: absolute;
-	bottom: 15%;
-	right: 15%;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+}
+
+.abstractDesign {
+	position: relative;
+	top: 10%;
+	width: 50%;
+	height: 60%;
+	background-color: #cbcbcb;
+}
+
+.buttonContainer > .abstractDesign {
+	background-color: #10162f;
+	height: 20%;
+	width: 100%;
 }
 
 .button {
+	margin-bottom: 5rem;
 	color: #10162f;
 	padding: 0.75rem 1.5rem;
 	border: 2px solid #10162f;
 	border-radius: 10px;
+	width: fit-content;
 	transition: all 00ms ease-in-out;
 }
 
@@ -63,38 +92,51 @@
 }
 
 @media (max-width: 1024px) {
-	.headingContainer {
-		transform: translate(-20%, -50%);
+	.container {
+		top: 20%;
 	}
 	.mainTitle {
-		font-size: 4rem;
+		font-size: 3rem;
+		color: #10162f;
 	}
-	.mainSubText {
-		font-size: 1rem;
+
+	.paperImage {
+		width: 100%;
+		height: 80%;
+	}
+
+	.abstractDesign {
+		opacity: 0;
 	}
 }
 
-@media (max-width: 640px) {
+@media only screen and (max-width: 600px) {
 	.mainContainer {
 		height: 150vh;
+		display: flex;
+		justify-content: center;
 	}
 	.mainBG {
 		object-fit: cover;
 		height: 100%;
 	}
-	.headingContainer {
-		transform: translate(-12%, -20%);
+
+	.container {
+		grid-template-columns: repeat(1, 1fr);
 	}
-	.mainTitle {
-		font-size: 6rem;
+
+	.paperImage {
+		width: 100%;
+		height: 100%;
 	}
-	.mainSubText {
-		max-width: 80%;
-		font-size: 1rem;
-	}
+
 	.buttonContainer {
-		bottom: 10%;
-		right: -35%;
+		position: relative;
+		bottom: 50%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
 	}
 }
 
