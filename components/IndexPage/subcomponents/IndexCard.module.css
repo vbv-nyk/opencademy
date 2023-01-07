@@ -13,6 +13,7 @@
   font-size: large;
   padding: 10px 0px;
 }
+
 .cardTitle {
   font-size: large;
 }
@@ -25,5 +26,10 @@
 }
 
 .listItem {
-  padding: 5px;
+  padding: 7px;
+}
+
+.listItem:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
