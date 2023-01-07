@@ -34,3 +34,15 @@
 		1fr
 	); /* 2 columns, each with a width of 1 fraction unit */
 }
+
+@media (max-width: 600px) {
+	.container {
+		width: 90%;
+	}
+	.courses {
+		grid-template-columns: repeat(
+			2,
+			1fr
+		); /* 2 columns, each with a width of 1 fraction unit */
+	}
+}
