@@ -1,0 +1,52 @@
+.modalOverlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.923);
+}
+
+.modalContainer {
+  background-color: #10162f;
+  border-radius: 25px;
+}
+
+.modalHeader {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+.modalBody {
+  padding: 0px 40px 0px 40px;
+  border-radius: 25px;
+  display: flex;
+  gap: 25px;
+}
+
+.courseImage {
+  height: 160px;
+}
+
+.courseContainer {
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.courseName {
+  color: white;
+  font-weight: bold;
+}
+
+.modalFooter {
+  text-align: end;
+  margin-right: 30px;
+  padding: 20px;
+  color: white;
+}
