@@ -1,35 +1,36 @@
 .mainContainer {
-	width: 100%;
+  width: 100%;
 }
 
 .mainPageContainer {
-	margin: auto;
-	width: 60%;
-	padding: 2em;
+  margin: auto;
+  width: 60%;
+  padding: 2em;
 }
 
 .lessonInformation {
-	width: 100%;
-	padding: 50px;
-	background-color: var(--color-secondary);
-	border-radius: 25px;
-	margin-bottom: 30px;
-	color: rgb(0, 0, 0);
+  width: 100%;
+  padding: 50px;
+
+  background-color: var(--color-secondary);
+  border-radius: 25px;
+  margin-bottom: 30px;
+  color: rgb(0, 0, 0);
 }
 .mainTitle {
-	font-size: xx-large;
+  font-size: xx-large;
 }
 
 .subTitle {
-	font-size: large;
+  font-size: large;
 }
 
 @media (max-width: 600px) {
-	.mainPageContainer {
-		width: 90%;
-	}
+  .mainPageContainer {
+    width: 90%;
+  }
 
-	.sidebarContainer {
-		opacity: 0;
-	}
+  .sidebarContainer {
+    opacity: 0;
+  }
 }

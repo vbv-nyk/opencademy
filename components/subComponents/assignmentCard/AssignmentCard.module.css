@@ -1,9 +1,16 @@
+.assignmentHeader {
+  font-size: xx-large;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
 .assignmentCard {
   background-color: #34394e;
   border-radius: 25px;
-  width: max(100%, 300px);
-  max-width: 600px;
+  width: 100%;
+  max-width: 780px;
   padding: 20px;
+  font-size: large;
   color: white;
 }
 
@@ -18,9 +25,21 @@
   margin-left: 25px;
 }
 
+.assignmentVideo:hover {
+  color: orange;
+}
+
 .assignmentImage {
   word-wrap: break-word;
-
   color: rgb(91, 147, 237);
   margin-left: 25px;
+}
+.assignmentImage:hover {
+  color: rgb(91, 147, 237);
+}
+
+.assignmentDesc {
+  padding: 15px;
+  text-align: center;
+  font-style: italic;
 }
