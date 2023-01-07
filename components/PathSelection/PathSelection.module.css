@@ -1,0 +1,36 @@
+.mainContainer {
+	width: 100%;
+	margin-bottom: 6rem;
+}
+
+.container {
+	width: 70%;
+	margin: auto;
+	margin-top: 5rem;
+}
+
+.wideContainer {
+	text-align: center;
+}
+
+.heading {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+.longContainer {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.courses {
+	display: grid;
+	grid-template-columns: repeat(
+		2,
+		1fr
+	); /* 2 columns, each with a width of 1 fraction unit */
+}

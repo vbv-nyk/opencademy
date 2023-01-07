@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { Button } from "antd"
 import styles from "./StreamModal.module.css"
 import Image from "next/image"
+import Link from "next/link"
 
 const StreamModal: React.FC = () => {
 	return (
@@ -14,21 +15,21 @@ const StreamModal: React.FC = () => {
 			>
 				<div className={styles.modalHeader}>Stream Choice</div>
 				<div className={styles.modalBody}>
-					<div className={styles.courseContainer}>
+					<Link href={"/paths"} className={styles.courseContainer}>
 						<Image
 							src="https://media.discordapp.net/attachments/893444140770144267/1061022078549102663/image.png?width=367&height=423"
 							className={styles.courseImage}
-							height={600}
+							height={700}
 							width={180}
 							alt="CouseImage"
 						/>
 						<div className={styles.courseName}>Science</div>
-					</div>
+					</Link>
 					<div className={styles.courseContainer}>
 						<Image
 							src="https://media.discordapp.net/attachments/893444140770144267/1061022078549102663/image.png?width=367&height=423"
 							className={styles.courseImage}
-							height={600}
+							height={700}
 							width={180}
 							alt="CouseImage"
 						/>
@@ -38,7 +39,7 @@ const StreamModal: React.FC = () => {
 						<Image
 							src="https://media.discordapp.net/attachments/893444140770144267/1061022078549102663/image.png?width=367&height=423"
 							className={styles.courseImage}
-							height={600}
+							height={700}
 							width={180}
 							alt="CouseImage"
 						/>
