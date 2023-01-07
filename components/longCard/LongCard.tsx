@@ -19,12 +19,7 @@ export default function LongCard() {
         className={styles.longCard}
         title={
           <div className={styles.courseImageContainer}>
-            <img
-              className={styles.courseImage}
-              src={props.imageURL}
-              alt=""
-              srcset=""
-            />
+            <img className={styles.courseImage} src={props.imageURL} alt="" />
             <div className={styles.pathDetails}>
               <div className={styles.pathCount}>PATH</div>
               <div className={styles.courseCount}>{props.courseCount}</div>
