@@ -12,7 +12,6 @@ interface pageObject {
 }
 
 interface Props {
-	dataPath: any
 	src: string
 	courseName: string
 	courseOverview: string

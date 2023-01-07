@@ -1,40 +1,48 @@
 .cardContainer {
-  flex-direction: column;
-  margin: 0px auto;
-  margin-bottom: 20px;
-  width: max(100%, 400px);
-  max-width: 800px;
+	flex-direction: column;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	width: max(100%, 400px);
+	max-width: 800px;
 }
 
 .card {
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.524);
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.524);
 }
 .subjectName {
-  font-size: large;
-  padding: 10px 0px;
+	font-size: large;
+	padding: 10px 0px;
 }
 
 .cardTitle {
-  font-size: large;
+	font-size: large;
 }
 
 .listContainer {
-  width: 100%;
-  padding-left: 20px;
-  font-size: medium;
-  list-style-type: square;
+	width: 100%;
+	padding-left: 20px;
+	font-size: medium;
+	list-style-type: square;
+	text-decoration: none;
+	list-style: none;
 }
 
 .listItem {
-  padding: 7px;
-  color: blue;
+	width: 100%;
+	list-style: none;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 7px;
+	color: rgb(0, 0, 0);
 }
 
 .listLinks {
-  color: blue;
+	list-style: none;
+	text-decoration: none;
+	color: rgb(2, 2, 2);
 }
 
 .listItem:hover {
-  text-decoration: underline;
-  cursor: pointer;
+	cursor: pointer;
+	background-color: var(--color-secondary);
 }

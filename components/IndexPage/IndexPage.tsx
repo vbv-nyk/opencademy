@@ -12,7 +12,6 @@ interface Props {
 export default function IndexPage({ ...props }: Props) {
 	return (
 		<div>
-			<Header />
 			<div className={styles.indexPage}>
 				<img src={props.src} />
 				<div className={styles.courseName}>{props.courseName}</div>
