@@ -12,6 +12,7 @@ import { renderToString } from "react-dom/server";
 import { hydrate } from "react-dom";
 
 export default function MainPage(props: any) {
+  console.log(props);
   const div = document.createElement("div");
   const markup = props.dataPath;
   return (
@@ -19,8 +20,8 @@ export default function MainPage(props: any) {
       <Header />
       <div className={styles.mainPageContainer}>
         <div className={styles.lessonInformation}>
-          <div className={styles.mainTitle}>{foundationContent.mainTitle}</div>
-          <div className={styles.subTitle}>{foundationContent.subTitle}</div>
+          <div className={styles.mainTitle}>{props.title}</div>
+          <div className={styles.subTitle}>{props.subSection}</div>
         </div>
         <div>{ReactHtmlParser(markup)}</div>
         <Sidebar />
