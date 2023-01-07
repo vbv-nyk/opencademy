@@ -100,7 +100,7 @@ export const foundationContent = {
       have any additional resources yet. Help us expand this section by
       contributing to our curriculum.
     </div>,
-    <div key="0">
+    <div key="1">
       <h1 id={1}>Introduction</h1>
       The Odin Project is an open-source community dedicated to providing the
       best information sources to take you from zero to a full-stack developer.

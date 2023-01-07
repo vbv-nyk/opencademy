@@ -11,6 +11,7 @@ import Link from "next/link";
 import StreamModal from "../components/subComponents/streamChoiceOverlay/subcomponents/StreamModal";
 import IndexCard from "../components/IndexPage/subcomponents/IndexCard";
 import { foundationContent, foundationIndex } from "./api/courseContentAPI";
+import IndexPage from "../components/IndexPage/IndexPage";
 
 export default function Home() {
   const [curriculumModal, setCurriculumModal] = useState(false);
@@ -20,7 +21,7 @@ export default function Home() {
   };
   return (
     <div>
-      <IndexCard {...foundationIndex} />
+      <IndexPage {...foundationIndex} />
       <HeaderHome />
       {curriculumModal ? <StreamModal /> : <></>}
       <div className={styles.mainContainer}>

@@ -33,6 +33,7 @@ export default function IndexCard({ ...props }: Props) {
                 pathname: "/maincontent",
                 query: {
                   id: index,
+                  dataPath: renderToString(props.dataPath.content[0]),
                 },
               });
             }}
