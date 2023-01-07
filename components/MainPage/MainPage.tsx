@@ -16,7 +16,9 @@ export default function MainPage(props: any) {
 					<div className={styles.subTitle}>{props.subSection}</div>
 				</div>
 				<div dangerouslySetInnerHTML={{ __html: markup }}></div>
-				<Sidebar />
+				<div className={styles.sidebarContainer}>
+					<Sidebar />
+				</div>
 			</div>
 		</div>
 	)
