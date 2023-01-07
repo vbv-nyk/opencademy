@@ -3,5 +3,5 @@ import MainPage from "../components/MainPage/MainPage";
 
 export default function MainContent() {
   const router = useRouter();
-  return <MainPage id={router.query.id} />;
+  return <MainPage id={router.query.id} dataPath={router.query.dataPath} />;
 }
