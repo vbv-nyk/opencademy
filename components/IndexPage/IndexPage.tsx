@@ -12,9 +12,10 @@ interface Props {
 export default function IndexPage({ ...props }: Props) {
   return (
     <div>
-      <Header className={styles.courseName}>{props.courseName}</Header>
+      <Header />
       <div className={styles.indexPage}>
         <img src={props.src} />
+        <div className={styles.courseName}>{props.courseName}</div>
         <div className={styles.overviewHeader}>Overview</div>
         <div className={styles.courseOverview}>{props.courseOverview}</div>
         <IndexCard {...props} />
