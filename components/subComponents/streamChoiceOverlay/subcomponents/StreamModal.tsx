@@ -4,7 +4,7 @@ import styles from "./StreamModal.module.css"
 import Image from "next/image"
 import Link from "next/link"
 
-const StreamModal: React.FC = () => {
+const StreamModal: React.FC = ({ handleCurriculum }) => {
 	return (
 		<div className={styles.modalOverlay}>
 			<div
@@ -13,6 +13,19 @@ const StreamModal: React.FC = () => {
 					e.stopPropagation()
 				}}
 			>
+				<div
+					onClick={handleCurriculum}
+					style={{
+						color: "#fff",
+						position: "relative",
+						left: "10%",
+						fontWeight: "600",
+						marginTop: "2rem",
+						cursor: "pointer",
+					}}
+				>
+					back
+				</div>
 				<div className={styles.modalHeader}>Stream Choice</div>
 				<div className={styles.modalBody}>
 					<Link href={"/paths"} className={styles.courseContainer}>
@@ -25,7 +38,7 @@ const StreamModal: React.FC = () => {
 						/>
 						<div className={styles.courseName}>Science</div>
 					</Link>
-					<div className={styles.courseContainer}>
+					<div className={styles.courseContainerDisable}>
 						<Image
 							src="https://media.discordapp.net/attachments/893444140770144267/1061022078549102663/image.png?width=367&height=423"
 							className={styles.courseImage}
@@ -35,7 +48,7 @@ const StreamModal: React.FC = () => {
 						/>
 						<div className={styles.courseName}>Commerce</div>
 					</div>
-					<div className={styles.courseContainer}>
+					<div className={styles.courseContainerDisable}>
 						<Image
 							src="https://media.discordapp.net/attachments/893444140770144267/1061022078549102663/image.png?width=367&height=423"
 							className={styles.courseImage}

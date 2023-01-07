@@ -20,7 +20,11 @@ export default function Home() {
 	return (
 		<div>
 			<HeaderHome />
-			{curriculumModal ? <StreamModal /> : <></>}
+			{curriculumModal ? (
+				<StreamModal handleCurriculum={handleCurriculum} />
+			) : (
+				<></>
+			)}
 			<div className={styles.mainContainer}>
 				<Image className={styles.mainBG} src={MainBG} alt="BackgroundImage" />
 				<div className={styles.container}>
@@ -41,9 +45,6 @@ export default function Home() {
 					</div>
 
 					<div className={styles.buttonContainer}>
-						{/* <Link href="/paths" className={styles.button}>
-							View Curriculum
-						</Link> */}
 						<div onClick={handleCurriculum} className={styles.button}>
 							View Curriculum
 						</div>

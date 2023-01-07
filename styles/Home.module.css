@@ -86,6 +86,7 @@
 	border-radius: 10px;
 	width: fit-content;
 	transition: all 200ms ease-in-out;
+	cursor: pointer;
 }
 
 .button:hover {

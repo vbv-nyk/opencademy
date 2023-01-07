@@ -23,7 +23,7 @@ const Header = () => {
 							<a href="blog.html">Community</a>
 						</li>
 						<li className={styles.askButton}>
-							<a href="askquestion.html">Get Started</a>
+							<Link href="/paths">Courses</Link>
 						</li>
 					</ul>
 				</nav>

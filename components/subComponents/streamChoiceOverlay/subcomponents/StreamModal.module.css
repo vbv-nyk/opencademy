@@ -11,11 +11,11 @@
 	justify-content: center;
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.842);
+	transition: all 1s ease-in;
 }
 
 .modalContainer {
 	background-color: #10162f;
-	height: 50%;
 	border-radius: 25px;
 }
 
@@ -44,6 +44,13 @@
 	flex-direction: column;
 	align-items: center;
 	transition: all 200ms ease-in-out;
+}
+
+.courseContainerDisable {
+	display: flex;
+	gap: 18px;
+	flex-direction: column;
+	align-items: center;
 }
 
 .courseContainer:hover {
