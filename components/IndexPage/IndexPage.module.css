@@ -3,4 +3,13 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: max(100px, 800px);
+}
+
+.overviewHeader {
+  align-self: flex-start;
+  font-weight: bolder;
 }
