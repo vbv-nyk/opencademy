@@ -4,7 +4,7 @@ import styles from "./StreamModal.module.css"
 import Image from "next/image"
 import Link from "next/link"
 
-const StreamModal: React.FC = ({ handleCurriculum }) => {
+const StreamModal: React.FC = ({ handleCurriculum }: any) => {
 	return (
 		<div className={styles.modalOverlay}>
 			<div
