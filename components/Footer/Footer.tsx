@@ -18,7 +18,7 @@ const Footer = () => {
 					<span className={styles.socialMediaHeading}>Github</span>
 					<a
 						style={{ marginTop: "1rem" }}
-						href={"https://instagram.com/electriphy2k22?igshid=YmMyMTA2M2Y="}
+						href={"https://github.com/vbv-nyk/opencademy"}
 					>
 						<Image
 							width={25}
